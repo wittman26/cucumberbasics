@@ -1,0 +1,16 @@
+{
+  "name": "cucumber-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber-all": "cucumber-js --require step_definitions/**/*.js",
+    "cucumber-addition": "npm run cucumber-all -- features/addition.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
+}
